@@ -2,7 +2,7 @@
 
 This gem help you to use [生活圈商户开放平台](https://fubei.gitbooks.io/lifecircleopen-api/content/)
 
-- get [](https://fubei.gitbooks.io/lifecircleopen-api/content/business/methods/orderReconciliation.html) by days
+- get [对账单](https://fubei.gitbooks.io/lifecircleopen-api/content/business/methods/orderReconciliation.html) by date
 
 ## Installation
 
