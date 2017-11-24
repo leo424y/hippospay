@@ -22,14 +22,16 @@ Or install it yourself as:
 
 ## Usage
 
+```
 require 'hippospay'
 extend Hippospay
 
-```
 ENV['hippo_app_id'] = YOURAPPID
 ENV['hippo_app_secret'] = YOURAPPSECRET
 get_hippo(day: "9", month: "11", year: "2017")
 ```
+
+Then you will get data in hash
 
 ## Development
 
