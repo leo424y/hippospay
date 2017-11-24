@@ -25,9 +25,8 @@ Or install it yourself as:
 ```
 require 'hippospay'
 extend Hippospay
-
-ENV['hippo_app_id'] = YOURAPPID
-ENV['hippo_app_secret'] = YOURAPPSECRET
+HIPPO_APP_ID = YOURAPPID
+HIPPO_APP_SECRET = YOURAPPSECRET
 get_hippo(day: "9", month: "11", year: "2017")
 ```
 

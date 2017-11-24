@@ -11,8 +11,8 @@ module Hippospay
     limit = '100'
     type = '1'
     api_url = 'https://shq-api.51fubei.com/gateway'
-    app_id = ENV['hippo_app_id']
-    app_secret = ENV['hippo_app_secret']
+    app_id = HIPPO_APP_ID
+    app_secret = HIPPO_APP_SECRET
     method = 'openapi.payment.order.reconciliation'
     nonce = (0...32).map { ('a'..'z').to_a[rand(26)] }.join
     next_page = true
