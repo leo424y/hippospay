@@ -2,6 +2,8 @@
 
 This gem help you to use [生活圈商户开放平台](https://fubei.gitbooks.io/lifecircleopen-api/content/)
 
+- get [](https://fubei.gitbooks.io/lifecircleopen-api/content/business/methods/orderReconciliation.html) by days
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -20,7 +22,14 @@ Or install it yourself as:
 
 ## Usage
 
+require 'hippospay'
+extend Hippospay
 
+```
+ENV['hippo_app_id'] = YOURAPPID
+ENV['hippo_app_secret'] = YOURAPPSECRET
+get_hippo(day: "9", month: "11", year: "2017")
+```
 
 ## Development
 
